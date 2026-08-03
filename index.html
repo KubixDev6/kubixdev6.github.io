@@ -8,44 +8,57 @@
   * { margin: 0; padding: 0; box-sizing: border-box; }
 
   body {
-    background: #0d0d0d;
-    color: #e0e0e0;
-    font-family: Arial, Helvetica, sans-serif;
+    background: #0a0a0c;
+    color: #e6e6e9;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     line-height: 1.6;
-    padding: 60px 20px;
+    padding: 80px 20px;
   }
 
   .container {
-    max-width: 620px;
+    max-width: 600px;
     margin: 0 auto;
   }
 
+  .tag {
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #8b93ff;
+    background: rgba(139, 147, 255, 0.1);
+    border: 1px solid rgba(139, 147, 255, 0.25);
+    padding: 5px 12px;
+    border-radius: 20px;
+    margin-bottom: 24px;
+  }
+
   h1 {
-    font-size: 32px;
-    font-weight: bold;
-    margin-bottom: 20px;
+    font-size: 34px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    margin-bottom: 18px;
     color: #ffffff;
   }
 
   p.intro {
     font-size: 16px;
-    color: #b0b0b0;
-    margin-bottom: 40px;
+    color: #a6a6ad;
+    margin-bottom: 44px;
+    max-width: 520px;
   }
 
   h2 {
-    font-size: 14px;
+    font-size: 12px;
     text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #808080;
-    margin-bottom: 12px;
-    border-bottom: 1px solid #2a2a2a;
-    padding-bottom: 8px;
+    letter-spacing: 1.5px;
+    color: #6b6b73;
+    margin-bottom: 14px;
   }
 
   ul.links {
     list-style: none;
-    margin-bottom: 40px;
+    margin-bottom: 48px;
   }
 
   ul.links li {
@@ -53,32 +66,37 @@
   }
 
   ul.links a {
-    display: block;
-    padding: 12px 16px;
-    background: #161616;
-    border: 1px solid #2a2a2a;
-    color: #e0e0e0;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 18px;
+    background: #141417;
+    border: 1px solid #232328;
+    border-radius: 10px;
+    color: #e6e6e9;
     text-decoration: none;
     font-size: 15px;
+    transition: border-color 0.15s ease, background 0.15s ease;
   }
 
   ul.links a:hover {
-    border-color: #4a4a4a;
-    background: #1c1c1c;
+    border-color: #3d3d47;
+    background: #191920;
   }
 
   ul.links a span {
-    color: #808080;
-    font-size: 12px;
+    color: #6b6b73;
+    font-size: 11.5px;
     text-transform: uppercase;
-    margin-right: 10px;
+    letter-spacing: 0.5px;
+    min-width: 70px;
   }
 
   footer {
     font-size: 13px;
-    color: #606060;
-    border-top: 1px solid #2a2a2a;
-    padding-top: 16px;
+    color: #55555c;
+    border-top: 1px solid #1e1e22;
+    padding-top: 20px;
   }
 </style>
 </head>
@@ -86,19 +104,21 @@
 
   <div class="container">
 
+    <div class="tag">Unity developer</div>
+
     <h1>KubixDev</h1>
 
     <p class="intro">
-      Indie developer and Unity asset creator focused on realistic shaders,
-      rendering effects, and procedural tools. I build assets that help
-      developers add polish and visual fidelity to their projects.
+      Indie developer focused on building custom shaders and realistic,
+      immersive games in Unity. I create rendering tools and effects,
+      and develop games that push visual fidelity and immersion.
     </p>
 
     <h2>Links</h2>
     <ul class="links">
       <li><a href="https://www.youtube.com/@kubixdev" target="_blank"><span>YouTube</span>@kubixdev</a></li>
       <li><a href="mailto:kubixdev67@gmail.com"><span>Contact</span>kubixdev67@gmail.com</a></li>
-      <li><a href="https://kubixdev.itch.io" target="_blank"><span>Assets</span>More tools on itch.io</a></li>
+      <li><a href="https://kubixdev.itch.io" target="_blank"><span>Assets</span>Projects on itch.io</a></li>
     </ul>
 
     <footer>
