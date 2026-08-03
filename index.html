@@ -3,107 +3,90 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>KubixDev</title>
+<title>KubixDev — Unity Developer &amp; Asset Creator</title>
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
 
   body {
-    background: #0a0a0a;
-    color: #e8e8e8;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: #0d0d0d;
+    color: #e0e0e0;
+    font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 40px 20px;
+    padding: 60px 20px;
   }
 
   .container {
-    max-width: 640px;
-    width: 100%;
-  }
-
-  .logo {
-    font-size: 14px;
-    letter-spacing: 4px;
-    color: #888;
-    text-transform: uppercase;
-    margin-bottom: 8px;
+    max-width: 620px;
+    margin: 0 auto;
   }
 
   h1 {
-    font-size: 42px;
-    font-weight: 700;
-    margin-bottom: 24px;
-    letter-spacing: -0.5px;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ffffff;
   }
 
-  .intro {
-    font-size: 17px;
-    color: #b8b8b8;
+  p.intro {
+    font-size: 16px;
+    color: #b0b0b0;
     margin-bottom: 40px;
-    max-width: 540px;
   }
 
-  .section-title {
-    font-size: 13px;
-    letter-spacing: 2px;
-    color: #666;
-    text-transform: uppercase;
-    margin-bottom: 16px;
-    margin-top: 40px;
-  }
-
-  .links {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-  }
-
-  .link-item {
-    display: flex;
-    align-items: center;
-    gap: 14px;
-    padding: 14px 18px;
-    background: #151515;
-    border: 1px solid #262626;
-    border-radius: 10px;
-    text-decoration: none;
-    color: #e8e8e8;
-    transition: border-color 0.2s ease, background 0.2s ease;
-  }
-
-  .link-item:hover {
-    border-color: #444;
-    background: #1a1a1a;
-  }
-
-  .link-label {
-    font-size: 12px;
-    color: #777;
+  h2 {
+    font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    min-width: 90px;
+    color: #808080;
+    margin-bottom: 12px;
+    border-bottom: 1px solid #2a2a2a;
+    padding-bottom: 8px;
   }
 
-  .link-value {
+  ul.links {
+    list-style: none;
+    margin-bottom: 40px;
+  }
+
+  ul.links li {
+    margin-bottom: 10px;
+  }
+
+  ul.links a {
+    display: block;
+    padding: 12px 16px;
+    background: #161616;
+    border: 1px solid #2a2a2a;
+    color: #e0e0e0;
+    text-decoration: none;
     font-size: 15px;
-    font-weight: 500;
+  }
+
+  ul.links a:hover {
+    border-color: #4a4a4a;
+    background: #1c1c1c;
+  }
+
+  ul.links a span {
+    color: #808080;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-right: 10px;
   }
 
   footer {
-    margin-top: 60px;
     font-size: 13px;
-    color: #555;
+    color: #606060;
+    border-top: 1px solid #2a2a2a;
+    padding-top: 16px;
   }
 </style>
 </head>
 <body>
 
   <div class="container">
-    <div class="logo">KubixDev</div>
-    <h1>Unity Developer &amp; Asset Creator</h1>
+
+    <h1>KubixDev</h1>
 
     <p class="intro">
       Indie developer and Unity asset creator focused on realistic shaders,
@@ -111,23 +94,17 @@
       developers add polish and visual fidelity to their projects.
     </p>
 
-    <div class="section-title">Links</div>
-    <div class="links">
-      <a class="link-item" href="https://www.youtube.com/@kubixdeveloper" target="_blank">
-        <span class="link-label">YouTube</span>
-        <span class="link-value">@kubixdeveloper</span>
-      </a>
-      <a class="link-item" href="mailto:kubixdev67@gmail.com">
-        <span class="link-label">Contact</span>
-        <span class="link-value">kubixdev67@gmail.com</span>
-      </a>
-      <a class="link-item" href="https://kubixdev.itch.io" target="_blank">
-        <span class="link-label">Assets</span>
-        <span class="link-value">More tools on itch.io</span>
-      </a>
-    </div>
+    <h2>Links</h2>
+    <ul class="links">
+      <li><a href="https://www.youtube.com/@kubixdev" target="_blank"><span>YouTube</span>@kubixdev</a></li>
+      <li><a href="mailto:kubixdev67@gmail.com"><span>Contact</span>kubixdev67@gmail.com</a></li>
+      <li><a href="https://kubixdev.itch.io" target="_blank"><span>Assets</span>More tools on itch.io</a></li>
+    </ul>
 
-    <footer>&copy; 2026 KubixDev</footer>
+    <footer>
+      &copy; 2026 KubixDev
+    </footer>
+
   </div>
 
 </body>
